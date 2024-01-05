@@ -1,6 +1,6 @@
 # Ou's Friends
 
-~~完了，身边人怎么个个都是 dalao~~
+是一群很厉害的好朋友们~
 
 ## 要求
 
@@ -15,6 +15,7 @@
     - `coding.me`
     - `coding.io`
     - `coding-pages.com`
+      - 不可以是因为上述域名以及其提供的服务多少有点那啥  
 - 请务必确认网站内没有安插有令人不适的内容
   - 示例 1：暴力、血腥、R-18、NSFW 等；
   - 示例 2：非常高对比颜色（这会让人的眼睛很不适）；
@@ -30,18 +31,18 @@
 
 - 将我的网站（下述信息示例为 blog）添加到你的友链列表中
   - 站点名称：Restent's Notebook [非强制]
-  - URL：`https://blog.restent.win`
+  - URL：`https://blog.gxres.net`
   - Slogan：`静寂に問う 答えを求めて` [非强制]
   - Logo
-    - [我的头像](https://library.restent.win/images/icons/avatar.webp)
-    - [SliverRiver's avatar](https://library.restent.win/images/icons/SliverRiver.webp)
-    - [站点图标](https://library.restent.win/images/icons/favicon.webp)
+    - [我的头像](https://library.gxres.net/images/icons/avatar.webp)
+    - [SliverRiver's avatar](https://library.gxres.net/images/icons/SliverRiver.webp)
+    - [站点图标](https://library.gxres.net/images/icons/favicon.webp)
   - Banner
-    - 如果你的友链样式需要 Banner / 背景图，可以使用 [这个](https://library.restent.win/images/profile.webp)
+    - 如果你的友链样式需要 Banner / 背景图，可以使用 [这个](https://library.gxres.net/images/profile.webp)
 - 准备好你的网站信息
   - 标准情况下你需要提供 `站长名称`、`Slogan`、`头像链接` 和 `网站链接`
     - 在很久之前，出于一些方面考虑，目前友链 Title 只能使用站长名称
-    - 你的头像应为对称的 方形 或 圆形，否则加载时可能出现一些问题
+    - 你的头像应为对称的 方形，否则加载时可能出现一些问题
     - **请确认你提供的头像链接对国内访问友好并且能够正常加载，否则通过申请时的头像链接将会指向你的 GitHub 头像。**
   - 请确保你提供的信息是适合全年龄段的人群的内容
 - 打开本仓库的 `links.json` 并在最末尾添加你的站点
@@ -67,3 +68,7 @@
 - 在整理友链时不小心丢失数据。
 
 你完全可以在出现这种状况时向我提出重新添加友链的要求，但请在发起 Pull Request 时带上 `#LOST` 的 Tag。
+
+---
+
+Repo inspired by [SukkaW/Friends](https://github.com/SukkaW/Friends)
