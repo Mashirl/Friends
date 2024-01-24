@@ -18,6 +18,7 @@ try {
   copySync("./img", "./dist/img");
 
   writeFileSync("./dist/links.json", JSON.stringify(listData));
+  console.log(listData)
 } catch (e) {
   console.error(e);
 }
