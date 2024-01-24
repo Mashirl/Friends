@@ -13,7 +13,7 @@ try {
  if (existsSync("./dist/")) {
    rmSync("./dist/", { recursive: true, force: true });
  }
-  const listData = yaml.load(readFileSync("./list.yaml", "utf8"));
+  const listData = yaml.load(readFileSync("./list.yaml", "utf8"), { schema: yaml.JSON_SCHEMA });
   mkdirSync("./dist/");
   copySync("./img", "./dist/img");
 
