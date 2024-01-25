@@ -13,12 +13,13 @@ try {
  if (existsSync("./dist/")) {
    rmSync("./dist/", { recursive: true, force: true });
  }
-  const listData = yaml.load(readFileSync("./list.yaml", "utf8"), { schema: yaml.JSON_SCHEMA });
+  const listData = yaml.load(readFileSync("./src/list.yaml", "utf8"));
   mkdirSync("./dist/");
-  copySync("./img", "./dist/img");
+  copySync("./src/img", "./dist/img");
 
   writeFileSync("./dist/links.json", JSON.stringify(listData));
-  console.log(listData)
+  console.log(listData);
+  console.log('Generate complete.');
 } catch (e) {
   console.error(e);
 }
