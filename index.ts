@@ -15,7 +15,7 @@ const distDir = path.join(__dirname, "dist");
 const imgDir = path.join(srcDir, "img");
 const linkListPath = path.join(srcDir, "list.yaml");
 const imgPath = path.join(distDir, "img");
-const distPath = path.join(distDir, "linklist.json");
+const distPath = path.join(distDir, "links.json");
 
 try {
   const listData = yaml.load(readFileSync(linkListPath, "utf8"));
