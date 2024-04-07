@@ -13,7 +13,7 @@ const yaml = require("js-yaml");
 const srcDir = path.join(__dirname, "src");
 const distDir = path.join(__dirname, "dist");
 const imgDir = path.join(srcDir, "img");
-const linkListPath = path.join(srcDir, "list.yaml");
+const linkListPath = path.join(srcDir, "list.yml");
 const imgPath = path.join(distDir, "img");
 const distPath = path.join(distDir, "links.json");
 
