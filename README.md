@@ -1,68 +1,50 @@
 # Ou's Friends
 
-你这是要，交换友链吗？(´·ω·`)
+你已经要准备和我交朋友了。真的准备好了吗？
 
 ## 交换要求
 
-- 友链友链，先友后链嘛，所以最好是我眼熟或认识的人喔。
-  - 「眼熟」的定义为：我见过一个人至少三次并与其有互动；
-  - 来自陌生人的申请会延后处理，也有可能会拒绝
-- 如果是为了新鲜感而随便搭来玩的网站还是不要来啦。
-- 你的网站需要已有一个稳定的域名，包括但不限于：
-  - 通过付费购买的域名；
-  - 可设置二级前缀的免费域名，包括但不限于 `vercel.app` `github.io` `netlify.app`；
-  - 你的域名已经启用了 HTTPS；
-  - 因为一些原因，暂不接受使用 `coding.me` `coding-pages.com` `gitee.io` 域名的网站的申请。
-- 你的网站出现下述内容的话，我的第一印象会直线下降：
-  - 暴力、血腥、R-18G、NSFW 和同类内容；
-  - 非常高对比颜色，这会让眼睛不适；
-  - 开屏便是广告，甚至广告量影响了接下来的访问体验；
-  - 教导别人滥用免费的公益服务；
-  - 最重要的一点：内容农场和采集站是万万不可以的啦。
+按常理来说，友链肯定是 **先友后链** 啦。不过，我打算更改一下策略：如果是很熟悉的朋友，可以直接 DM 我发起交换申请；而一般路过陌生人的话，需要按照接下来的要求和我交换，否则可能会被无情打回.jpg
 
-如果你认为自己符合了要求，就可以按照下述的流程来交换啦。
+接下来，如果建站时间过短（最短也得 3 个月）的网站还是别来啦。我不确定你能否在做网站这条路上越走越远，还是一时新鲜感、随便做做就放弃了。
 
-## 交换流程流程
+再来，域名肯定是有要求的啦，要求如下：
 
-- 将我的网站（下述信息示例为 blog）添加到你的友链列表中
-  - 站点名称：Restent's Notebook [非强制]
-  - URL：`https://blog.gxres.net`
-  - Slogan：`静寂に問う 答えを求めて` [非强制]
-  - Logo
-    - [我的头像](https://library.gxres.net/images/icons/avatar.webp)
-    - [站点图标](https://library.gxres.net/images/icons/favicon.webp)
-  - Banner
-    - 如果你的友链样式需要 Banner / 背景图，可以使用 [这个](https://library.gxres.net/images/bg.webp)
-- 准备好你的网站信息
-  - 你需要提供 `站长名称`、`Slogan` 和 `网站链接`
-  - 同时，你需要自备一个 256x 的 WebP 格式头像，如果实在不方便可找我帮你转换；
-  - 请确保你提供的信息是适合全年龄段的人群的内容。
-- Fork 本仓库到你的账号。
-- 打开本仓库的 `src/img` 文件夹，将你自备的头像上传到这里，并命名为你的名字（字母请小写）。
-- 打开本仓库的 `src/list.yaml` 并在最末尾添加你的站点。
+- 使用自己购买的付费域名；
+- 使用位于 [Public Suffix List](https://publicsuffix.org/list/public_suffix_list.dat) 中的任意一个非自行付费域名；
+- 域名已启用 HTTPS；
 
-  - 下述是一个对你有用的示例：
+最后，我也对网站的内容有所要求：
 
-    ```yaml
-    - name: 你的名字
-      slogan: 你的 slogan
-      avatar: https://links.slirv.vip/img/你设置的名称.webp
-      link: 你的链接
-    ```
+- 「广告」我自认为算是网站的内容之一，所以网站的广告不能多到一个令人反感的程度；
+- 我没有特定的内容限制，但严重违反道德伦理、色情、擦边等内容是绝对不能容忍的；
+- 我不要求你的网站有多少非常有意义的内容，但如果是采稿、洗稿这类行为的网站还是考虑一下绕路吧。
 
-    - 请将 `avatar` 一行的「你设置的名称」改为你设置的头像名称，注意 **不要更改原始 URL**。
-    - 如果你的名称是非 string 类型内容，请使用 `''` 包裹
+确定你的网站符合上述的所有要求了吗？那我们继续吧。
 
-- 确认你填写的信息是否无误，并开启一个 Pull Request。
-- 当你的 Pull Request 按流程顺利合并后，你的网站将会在 12 个小时内显示在我的友链页。
+## 交换步骤
 
-## 写在最后
+首先，请将我的网站添加到你的友链列表里。这里以博客为例：
 
-严格来说，一旦最后 Pull Request 顺利合并，你的友链将不会被移除，除非这个仓库删库跑路了。
+- 网站标题：`Restent's Notebook`
+- 网站链接：`https://blog.gxres.net`
+- Slogan：`静寂に問う 答えを求めて`
+- 头像：[https://library.gxres.net/images/icons/avatar.webp](https://library.gxres.net/images/icons/avatar.webp)
 
-但是，因下述两种原因，你的友链可能在命中时被我移除：
+接下来，创建一个本仓库的 Fork，并按照接下来的步骤操作：
 
-- 逛友链时遇到了无法访问的问题（例如 `404`、`502`、`522` 等）；
-- 在整理友链时不小心丢失数据。
+- 将一张方形（内容 + 透明区域）、不大于 100KB、256x 大小的 WebP 格式头像上传到 `src/img` 文件夹里，命名为 `[domain].webp`（例如 `blog.gxres.net.webp`；
+- 按照下述格式将你的信息添加到 `list.yaml` 中：
+  ```
+  - name: "你的名字" # 请使用双引号包裹
+    slogan: "你的 Slogan" # 请使用双引号包裹 
+    avatar: https://links.slirv.vip/img/example.com.webp # 头像文件，请修改 `img/` 后的内容
+    link: https://example.com # 你的网站链接
+  ```
+- 上述操作完成后，请新建一个 Pull Request，等待合并即可。
 
-你完全可以在出现这种状况时向我提出重新添加友链的要求，但请在发起 Pull Request 时带上 `#LOST` 的 Tag。
+当你的 Pull Request 被通过、合并后，你的网站将在 12 小时内展示在我的 [友链页面](https://library.gxres.net/links)。
+
+---
+
+灵感源于 [SukkaW/Friends](https://github.com/SukkaW/Friends) 与 [ChrAlpha/Friends](https://github.com/ChrAlpha/Friends)，Restent Ou 与 SliverRiver 保留一切最终解释权。
